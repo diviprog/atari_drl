@@ -1,7 +1,6 @@
 import gymnasium as gym
 import time
 from ale_py import ALEInterface
-#from ale_py.roms import Breakout
 from agent import RandomAgent
 import matplotlib.pyplot as plt
 
