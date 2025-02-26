@@ -8,7 +8,8 @@ We're building a CNN-based Q-network that learns to play Atari games directly fr
 
 ## Project Structure
 
-- `random_agent.py`: Implementation of a random baseline agent
+- `app.py`: Main entry point for running the application
+- `agent.py`: Contains the RandomAgent class implementation
 - (More modules will be added as the project progresses)
 
 ## Features
@@ -50,7 +51,7 @@ pip install gym ale-py opencv-python matplotlib numpy torch
 ### Running the Random Agent
 
 ```python
-python random_agent.py
+python app.py
 ```
 
 This will execute a random agent playing Breakout, serving as a baseline for comparison.
